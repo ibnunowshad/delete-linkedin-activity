@@ -5,7 +5,7 @@
  * https://stackoverflow.com/a/39914235
  */
 function sleep(seconds) {
-    return new Promise(resolve => setTimeout(resolve, seconds * 1000));
+    return new Promise(resolve => setTimeout(resolve, seconds * 5000));
 }
 
 // Gets Comment dropdowns on comments you've authored.

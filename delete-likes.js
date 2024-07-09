@@ -5,7 +5,7 @@
  * https://stackoverflow.com/a/39914235
  */
 function sleep(seconds) {
-    return new Promise(resolve => setTimeout(resolve, seconds * 1000));
+    return new Promise(resolve => setTimeout(resolve, seconds * 5000));
 }
 
 // Gets like buttons on posts you've thumbed up.

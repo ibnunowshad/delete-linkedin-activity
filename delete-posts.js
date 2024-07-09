@@ -21,7 +21,7 @@
  * @returns {Promise} A Promise that resolves after the specified number of seconds.
  */
 function sleep(seconds) {
-	return new Promise(resolve => setTimeout(resolve, seconds * 1000));
+	return new Promise(resolve => setTimeout(resolve, seconds * 5000));
 }
 
 /**
